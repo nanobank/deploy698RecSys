@@ -4,7 +4,7 @@ import pickle
 import scikit-learn==1.2.2
 import scikit-surprise
 import pandas
-import numpy
+import numpy==1.26.4
 
 
 # Load data (assuming 'recommendation_movie_svd.pkl' is in the same directory)
