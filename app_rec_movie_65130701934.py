@@ -1,7 +1,11 @@
-
-!pip install streamlit
+!pip install scikit-surprise
 import streamlit as st
 import pickle
+import scikit-learn==1.2.2
+import scikit-surprise
+import pandas
+import numpy
+
 
 # Load data (assuming 'recommendation_movie_svd.pkl' is in the same directory)
 with open('recommendation_movie_svd.pkl', 'rb') as file:
