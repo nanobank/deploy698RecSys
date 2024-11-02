@@ -1,10 +1,9 @@
 pip install --upgrade pip
 pip install streamlit pandas scikit-surprise requests
-pip install --upgrade Cython
-pip install --upgrade scikit-learn
-pip install numpy==1.21.6
-pip install -r requirements.txt
-pip install scikit-learn --prefer-binary
+pip install --upgrade cython
+pip install numpy==1.23.5
+pip install scikit-learn==1.1.1 --prefer-binary
+
 #!pip install scikit-surprise
 import streamlit as st
 #import pickle
