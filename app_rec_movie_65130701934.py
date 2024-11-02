@@ -1,10 +1,10 @@
-#!pip install scikit-surprise
-#import streamlit as st
-#import pickle
-#import scikit-learn==1.2.2
-#import scikit-surprise as surprise
-#import pandas
-#import numpy==1.26.4
+!pip install scikit-surprise
+import streamlit as st
+import pickle
+import scikit-learn==1.2.2
+import scikit-surprise as surprise
+import pandas
+import numpy==1.26.4
 
 
 import streamlit as st
