@@ -1,4 +1,6 @@
 pip install streamlit pandas scikit-surprise requests
+pip install --upgrade Cython
+pip install --upgrade scikit-learn
 #pip install --upgrade pip
 #!pip install scikit-surprise
 import streamlit as st
