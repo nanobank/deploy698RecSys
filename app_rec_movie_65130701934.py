@@ -1,3 +1,4 @@
+pip install --upgrade pip
 #!pip install scikit-surprise
 #import streamlit as st
 #import pickle
