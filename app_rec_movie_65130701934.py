@@ -4,9 +4,9 @@ pip install --upgrade pip
 #import pickle
 #import scikit-learn==1.2.2
 #import scikit-surprise as surprise
-import scikit-surprise
-import pandas as pd
-import numpy==1.26.4
+#import scikit-surprise
+#import pandas as pd
+#import numpy==1.26.4
 
 
 import streamlit as st
