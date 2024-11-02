@@ -1,4 +1,4 @@
-!pip install scikit-surprise
+#!pip install scikit-surprise
 import streamlit as st
 import pickle
 import scikit-learn==1.2.2
