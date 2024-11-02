@@ -1,3 +1,4 @@
+pip cache purge
 pip install --upgrade pip
 pip install streamlit pandas scikit-surprise requests
 pip install --upgrade cython
