@@ -5,7 +5,7 @@ pip install --upgrade pip
 #import scikit-learn==1.2.2
 #import scikit-surprise as surprise
 import scikit-surprise
-import pandas
+import pandas as pd
 import numpy==1.26.4
 
 
