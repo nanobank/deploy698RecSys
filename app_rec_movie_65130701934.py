@@ -20,7 +20,7 @@ from surprise.model_selection import cross_validate
 # Load data from URL (replace with your actual URL)
 @st.cache_data  # Cache the data for faster loading
 def load_data():
-    url = "https://github.com/your-username/your-repo/raw/main/recommendation_movie_svd.pkl"  # Replace with your file URL
+    url = "https://github.com/nanobank/deploy698RecSys/blob/main/recommendation_movie_svd.pkl"  # Replace with your file URL
     data = pd.read_pickle(url)
     svd_model = data['svd_model']
     movie_ratings = data['movie_ratings']
