@@ -1,14 +1,13 @@
 pip install streamlit pandas scikit-surprise requests
 #pip install --upgrade pip
 #!pip install scikit-surprise
-#import streamlit as st
+import streamlit as st
 #import pickle
 #import scikit-learn==1.2.2
 #import scikit-surprise as surprise
 #import scikit-surprise
 #import pandas as pd
 #import numpy==1.26.4
-
 
 import streamlit as st
 import pickle
