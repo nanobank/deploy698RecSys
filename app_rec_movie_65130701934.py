@@ -4,7 +4,7 @@ pip install streamlit pandas scikit-surprise requests
 import streamlit as st
 #import pickle
 #import scikit-learn==1.2.2
-#import scikit-surprise as surprise
+import scikit-surprise as surprise
 #import scikit-surprise
 #import pandas as pd
 #import numpy==1.26.4
@@ -12,12 +12,12 @@ import streamlit as st
 import streamlit as st
 import pickle
 import pandas as pd
-from scikit-surprise import SVD
-#from surprise import SVD
-from scikit-surprise import Dataset
-#from surprise import Dataset
-from scikit-surprise.model_selection import cross_validate
-#from surprise.model_selection import cross_validate
+#from scikit-surprise import SVD
+from surprise import SVD
+#from scikit-surprise import Dataset
+from surprise import Dataset
+#from scikit-surprise.model_selection import cross_validate
+from surprise.model_selection import cross_validate
 
 # Load data from URL (replace with your actual URL)
 @st.cache_data  # Cache the data for faster loading
