@@ -7,21 +7,9 @@ import requests
 # Define a function to load the data from GitHub
 @st.cache_data  # Cache the data to avoid re-downloading
 def load_data():
-    url = "https://github.com/nanobank/deploy698RecSys/raw/main/recommendation_movie_svd.pkl"  # Replace with your GitHub file URL
-    try:
-        # Fetch and load the pickle data
-        response = requests.get(url)
-        response.raise_for_status()
-        data = pickle.load(BytesIO(response.content))
-
-        # Extract components from the loaded data
-        svd_model = data['svd_model']
-        movie_ratings = data['movie_ratings']
-        movies = data['movies']
-        return svd_model, movie_ratings, movies
-    except requests.exceptions.RequestException as e:
-        st.error("Error loading data: {}".format(e))
-        return None, None, None
+    with open('./recommendation_movie_svd.pkl', 'rb' ) as file:
+        svd_model,movie_ratings,movies = pickle.load(file)
+    return svd_model, movie_ratings, movies
 
 # Load the data
 svd_model, movie_ratings, movies = load_data()
