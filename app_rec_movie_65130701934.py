@@ -2,9 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 from surprise import SVD, Dataset
-from surprise.model_selection import cross_validate
 import requests
-from io import BytesIO
 
 # Define a function to load the data from GitHub
 @st.cache_data  # Cache the data to avoid re-downloading
